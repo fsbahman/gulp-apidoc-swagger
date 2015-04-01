@@ -1,0 +1,38 @@
+{
+  "name": "gulp-apidoc-swagger",
+  "version": "0.0.0",
+  "description": " Swagger json schema generator via apidoc",
+  "author": "Bahman Fakhr Sabahi",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/fsbahman/gulp-apidoc-swagger/blob/master/README.md/LICENSE"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fsbahman/gulp-apidoc-swagger"
+  },
+  "bugs": {
+    "url": "https://github.com/fsbahman/gulp-apidoc-swagger/issues"
+  },
+  "keywords": [
+    "gulpplugin",
+    "apidoc",
+    "documentation",
+    "rest",
+    "doc",
+    "swagger"
+  ],  
+  "homepage": "https://github.com/fsbahman/gulp-apidoc-swagger",
+  "dependencies": {
+    "apidoc-swagger": "^0.0.0",
+    "gulp-util": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "gulp": "~3.5.1"
+  }
+}
